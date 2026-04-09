@@ -6,7 +6,7 @@ public class ReverseWords {
         String word="";
         for(int i=0;i<=s.length();i++){
             char c;
-            if(i==s.length()){
+            if(i==s.length()){  
                 c=' ';
             }
             else{
@@ -16,7 +16,7 @@ public class ReverseWords {
                 word+=c;
             }
             else{
-                for(int j=word.length()-1;j>=0;j--){
+                for(int j=word.length()-1;j>=0;j--){      //character only reverse
                     System.out.print(word.charAt(j));
                 }
                 System.out.print(" ");
