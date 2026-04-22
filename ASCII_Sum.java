@@ -9,5 +9,6 @@ public class ASCII_Sum{
             sum=sum+c;
         }
         System.out.print("Total Sum="+sum);
+
     }
 }
